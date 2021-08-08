@@ -76,10 +76,10 @@ fun HomeScreen() {
         }
         BottomMenu(items = listOf(
             BottomMenuContent("Home", R.drawable.ic_home),
-            BottomMenuContent("Meditate", R.drawable.ic_bubble),
-            BottomMenuContent("Sleep", R.drawable.ic_moon),
-            BottomMenuContent("Music", R.drawable.ic_music),
-            BottomMenuContent("Profile", R.drawable.ic_profile),
+            BottomMenuContent("Meditação", R.drawable.ic_bubble),
+            BottomMenuContent("Sono", R.drawable.ic_moon),
+            BottomMenuContent("Músicas", R.drawable.ic_music),
+            BottomMenuContent("Perfil", R.drawable.ic_profile),
         ), modifier = Modifier.align(Alignment.BottomCenter))
     }
     }
